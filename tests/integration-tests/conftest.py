@@ -44,7 +44,6 @@ from utils import (
     unset_credentials,
 )
 from network_template_builder import Gateways, NetworkTemplateBuilder, SubnetConfig, VPCConfig
-from utils import create_s3_bucket, delete_s3_bucket, random_alphanumeric, to_snake_case
 
 
 def pytest_addoption(parser):
